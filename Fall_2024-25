@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Calendar 2024-2025</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #0044cc;
+      margin-bottom: 5px;
+    }
+
+    h3 {
+      text-align: center;
+      color: #555;
+      font-size: 1em;
+      margin-top: 0;
+    }
+
+    .table-container {
+      width: 100%;
+      max-width: 1200px;
+      padding: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0 auto;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #0044cc;
+      color: white;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    td {
+      vertical-align: middle;
+    }
+
+    caption {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      table {
+        border: 0;
+      }
+
+      table thead {
+        display: none;
+      }
+
+      table tr {
+        display: block;
+        margin-bottom: 15px;
+      }
+
+      table td {
+        display: block;
+        text-align: right;
+        border: 0;
+        padding: 8px;
+        font-size: 0.9em;
+        position: relative;
+      }
+
+      table td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        text-align: left;
+        font-weight: bold;
+        color: #333;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="table-container">
+    <h1>ACADEMIC CALENDAR 2024-2025</h1>
+    <h2>Fall 2024-25</h2>
+    <h3>(18 October 2024)</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Day</th>
+          <th>Event</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Month" rowspan="6">Oct</td>
+          <td data-label="Day">19</td>
+          <td data-label="Event">Freshman Students’ Orientation**</td>
+        </tr>
+        <tr>
+          <td data-label="Day">20</td>
+          <td data-label="Event">First Day of Classes</td>
+        </tr>
+        <tr>
+          <td data-label="Day">22</td>
+          <td data-label="Event">Last date of registration payment and validating registration.</td>
+        </tr>
+        <tr>
+          <td data-label="Day">24 &amp; 27</td>
+          <td data-label="Event">Adding/ Dropping**</td>
+        </tr>
+        <tr>
+          <td data-label="Day">28</td>
+          <td data-label="Event">Registration closed for Fall 2024-2025</td>
+        </tr>
+        <tr>
+          <td data-label="Day">31</td>
+          <td data-label="Event">Submission of TSF and course description</td>
+        </tr>
+        <tr>
+          <td data-label="Month" rowspan="6">Nov</td>
+          <td data-label="Day">5</td>
+          <td data-label="Event">Automatic conversion of UW, I, blank grades of Summer 2023-24 Semester to F</td>
+        </tr>
+        <tr>
+          <td data-label="Day">9</td>
+          <td data-label="Event">Makeup of Sunday/ Tuesday theory (only) classes **</td>
+        </tr>
+        <tr>
+          <td data-label="Day">16</td>
+          <td data-label="Event">Makeup of Monday/ Wednesday theory (only) classes **</td>
+        </tr>
+        <tr>
+          <td data-label="Day">24 – 30</td>
+          <td data-label="Event">Laboratory midterm exams</td>
+        </tr>
+        <tr>
+          <td data-label="Day">24</td>
+          <td data-label="Event">Last date of 2<sup>nd</sup> installment of registration payment (for 3 installment scheme).</td>
+        </tr>
+        <tr>
+          <td data-label="Day">-</td>
+          <td data-label="Event">Permit collection for midterm exam</td>
+        </tr>
+        <tr>
+          <td data-label="Month" rowspan="5">Dec</td>
+          <td data-label="Day">2 – 8</td>
+          <td data-label="Event">Midterm Exam**</td>
+        </tr>
+        <tr>
+          <td data-label="Day">14</td>
+          <td data-label="Event">Deadline of submitting Midterm Grades</td>
+        </tr>
+        <tr>
+          <td data-label="Day">15 – 21</td>
+          <td data-label="Event">TPE</td>
+        </tr>
+        <tr>
+          <td data-label="Day">21</td>
+          <td data-label="Event">Midterm Grades Locked</td>
+        </tr>
+        <tr>
+          <td data-label="Day">22 – 28</td>
+          <td data-label="Event">Pre-registration for Spring 2024-25**</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
