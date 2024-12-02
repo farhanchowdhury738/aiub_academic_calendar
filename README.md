@@ -1,2 +1,3 @@
 # ACADEMIC CALENDAR  2024-2025
-        Fall 2024-25
+
+Fall 2024-25
