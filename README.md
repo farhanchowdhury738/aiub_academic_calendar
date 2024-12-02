@@ -1,1 +1,2 @@
-# aiub_academic_calendar_fall_24-25
+# ACADEMIC CALENDAR  2024-2025
+#         Fall 2024-25
